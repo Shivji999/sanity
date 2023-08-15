@@ -38,7 +38,7 @@ export default async function Project({ params }: Props) {
             <PortableText value={project.content} />
 
         </div>
-<Image className="mt-4 border-none"  src={project.image} width={500} height={500} alt="project image" />
+<Image className="mt-4 border-2 border-gray-700 object-cover rounded-xl"  src={project.image} width={1920} height={1080} alt="project image" />
     
     </div>
 
